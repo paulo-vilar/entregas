@@ -1,0 +1,42 @@
+body
+{
+	box-sizing: border-box;
+	font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+	margin: 10px;
+	background-color: white;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+table {
+  	border-collapse: collapse;
+  	width: 100%;
+}
+
+th, td {
+  	text-align: left;
+  	padding: 8px;
+}
+tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+footer
+{
+  	width: 100%;
+	height: 80px;
+  	background-color: #B1B1B1;
+  	position: fixed;
+  	bottom: 0;
+  	left: 0;
+}
+footer a
+{
+	float: left;
+	margin: 10px;
+}
